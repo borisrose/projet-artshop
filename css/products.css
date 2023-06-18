@@ -121,6 +121,16 @@
 
 
 
+/* screen mobile */
+@media screen and (max-width:414px) {
+
+    .product-article {
+        width: 98%;
+    }
+    
+}
+
+
 @keyframes ProductArticleAnimation {
 
     from {

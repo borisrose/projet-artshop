@@ -9,6 +9,18 @@
   
 }
 
+
+/* screen mobile */
+@media screen and (max-width:414px) {
+
+    .contact-section {
+        width: 98%;
+    }
+    
+}
+
+
+
 .contact-form-container {
 
     border: solid white 1px;

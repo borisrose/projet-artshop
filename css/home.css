@@ -17,10 +17,22 @@
 }
 
 
-/* #home-section h2 {
+/* screen mobile */
+@media screen and (max-width:414px) {
 
-    font-style: italic;
-} */
+    #home-section {
+        width: 98%;
+    }
+
+    #home-section h1 {
+        width: 98%;
+    
+
+        text-align: center;
+    }
+    
+}
+
 
 
 
