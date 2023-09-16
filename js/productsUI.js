@@ -3,7 +3,6 @@ const productsFooter = document.querySelector('#products-footer')
 const productsSection = document.getElementById('products-section')
 
 
-
 const buyMessageContent = (p) => {
 
     return(
@@ -17,7 +16,6 @@ const buyMessageContent = (p) => {
 const articleContent = (prod) => {
 
        
-
     return(
         `<div class="image-container">
 
@@ -67,12 +65,7 @@ const showLogMessage = (p) => {
 
 
 
-
-
 export class ProductsUI {
-
-
-    
 
     /*méthode 1*/
     async init(){
@@ -91,8 +84,6 @@ export class ProductsUI {
             newArticle.innerHTML = articleContent(p)
     
         
-            
-         
             productsSection.append(newArticle)
         })
 
@@ -115,37 +106,17 @@ export class ProductsUI {
                     }
                 }
     
-       
-               
-    
+
             })
-    
-    
+        
         })
-
-
   
     }
-
-
-
-
-
 
 
 }
 
 
-
-
-
-
-   
-   
-
-  
-
-   
 
     // a function that creates what the article will contain as html elements 
 
