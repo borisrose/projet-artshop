@@ -10,9 +10,18 @@
 
     flex-wrap: wrap;
     width: 100vw;
+    @media screen and (max-width: 768px) {
+        padding: 20px;
+        margin-top: 50px;
+        flex-direction: column;
+        width: 100%;
+    }
     
 
 }
+
+
+    
 
 
 .product-article {
@@ -26,9 +35,35 @@
     opacity: 0;
     animation: ProductArticleAnimation 2000ms ease-in-out forwards;
     background-color: azure;
+
+   
     
     
 }
+
+@media screen and (max-width:414px) {
+
+    .product-article {
+
+        margin: 20px 0px;
+        width: 100%;
+    
+    }
+
+}
+
+@media screen and (min-width: 415px) and (max-width:800px) {
+
+
+    .product-article {
+
+        margin: 20px;
+        width: 40%;
+    
+    }
+
+}
+
 
 .image-container {
 
@@ -83,7 +118,8 @@
     border: none;
     background-color: rgb(235, 235, 147);
     opacity: 0.3;
-
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 
 .button-container button:hover {

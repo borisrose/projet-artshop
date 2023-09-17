@@ -35,7 +35,7 @@ const displayLogForm =(choice) => {
 
             <div class='log-form-buttons-container'>
                 <button type='submit'> ${choice === 'signup' ? 'Sign up' : 'Log in'} </button> 
-                <p style="font-size:12px">${choice === 'signup' ? 'Déjà inscrit ? <span id="login-button" aria-label="login button"><u>Connectez-vous</u><span>' : 'Nouveau ? <span  id="signup-button" aria-label="signup button"><u>Inscrivez-vous</u><span>'} </p>
+                <p>${choice === 'signup' ? 'Déjà inscrit ? <span id="login-button" aria-label="login button"><u>Connectez-vous</u><span>' : 'Nouveau ? <span  id="signup-button" aria-label="signup button"><u>Inscrivez-vous</u><span>'} </p>
             </div>
         
         </form>`

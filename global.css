@@ -43,8 +43,17 @@ header {
     /*border: solid red 1px;*/
     align-items: center;
     justify-content: center;
- 
+
 }
+
+@media screen and (max-width:414px) {
+
+    header {
+        height: 5vh;
+      
+    }
+}
+    
 
 nav {
     display: flex;
@@ -83,6 +92,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 
 }
 

@@ -7,16 +7,34 @@
     border: solid white 1px;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 50%;
     height: 300px;
     opacity: 0;
     animation: LogSectionAnimation 1000ms ease-in-out forwards;
-
+   
 
 
 
 }
 
+
+@media screen and (max-width:414px) {
+
+    #log-section {
+
+        width: 98%;
+        height: 90vh;
+        margin: 0px;
+        border: transparent white 0px;
+
+    }
+
+    .log-form-container{
+
+        border: solid white 0px;
+    }
+
+}
 
 .log-form-container {
 
@@ -26,11 +44,6 @@
     height: 100%;
     padding: 20px;
     flex-direction: column;
-
-
-
-
-
 
 }
 
@@ -64,7 +77,15 @@
 
 
 }
+@media screen and (max-width:414px) {
+    .input-container input {
 
+        padding: 10px;
+        font-size: 18px;
+    }
+   
+}
+   
 
 
 
@@ -84,6 +105,15 @@
     font-weight: bold;
 
 }
+
+@media screen and (max-width:414px) {
+    .log-form-buttons-container button {
+
+        font-size: 18px;
+    }
+   
+}
+   
 
 .log-form-buttons-container button:hover {
     opacity: 0.8;
